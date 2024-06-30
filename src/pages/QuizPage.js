@@ -16,35 +16,35 @@ const QuizPage = () => {
         question: "What is the capital of France?",
         answer: "Paris",
         image:
-          "https://media.licdn.com/dms/image/D5622AQEKmUujWq-HDg/feedshare-shrink_800/0/1707444544764?e=2147483647&v=beta&t=76PGtmJj8gEBdBqMs0vMHzD6dhhQKQd-XbgkTxZbolg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
       },
       {
         id: 2,
         question: "What is 2 + 2?",
         answer: "4",
         image:
-          "https://media.licdn.com/dms/image/D5622AQEKmUujWq-HDg/feedshare-shrink_800/0/1707444544764?e=2147483647&v=beta&t=76PGtmJj8gEBdBqMs0vMHzD6dhhQKQd-XbgkTxZbolg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
       },
       {
         id: 3,
         question: 'Who wrote "To be, or not to be"?',
         answer: "William Shakespeare",
         image:
-          "https://media.licdn.com/dms/image/D5622AQEKmUujWq-HDg/feedshare-shrink_800/0/1707444544764?e=2147483647&v=beta&t=76PGtmJj8gEBdBqMs0vMHzD6dhhQKQd-XbgkTxZbolg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
       },
       {
         id: 4,
         question: "What is the boiling point of water?",
         answer: "100°C",
         image:
-          "https://media.licdn.com/dms/image/D5622AQEKmUujWq-HDg/feedshare-shrink_800/0/1707444544764?e=2147483647&v=beta&t=76PGtmJj8gEBdBqMs0vMHzD6dhhQKQd-XbgkTxZbolg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
       },
       {
         id: 5,
         question: "What is the speed of light?",
         answer: "299,792,458 m/s",
         image:
-          "https://media.licdn.com/dms/image/D5622AQEKmUujWq-HDg/feedshare-shrink_800/0/1707444544764?e=2147483647&v=beta&t=76PGtmJj8gEBdBqMs0vMHzD6dhhQKQd-XbgkTxZbolg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
       },
     ];
     setQuizzes([
@@ -53,7 +53,7 @@ const QuizPage = () => {
         question: "Create a new quiz",
         answer: "+",
         image:
-          "https://media.licdn.com/dms/image/D5622AQEKmUujWq-HDg/feedshare-shrink_800/0/1707444544764?e=2147483647&v=beta&t=76PGtmJj8gEBdBqMs0vMHzD6dhhQKQd-XbgkTxZbolg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
       },
       ...fakeQuizzes,
     ]);

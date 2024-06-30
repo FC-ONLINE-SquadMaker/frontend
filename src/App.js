@@ -3,8 +3,20 @@ import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import QuizPage from "./pages/QuizPage";
 import CreateQuizPage from "./pages/CreateQuizPage";
 import Placeholder from "./components/Placeholder";
-import KakaoLoginButton from "./components/KakaoLoginButton";
+import NaverLoginButton from "./components/NaverLoginButton";
 import "./App.css";
+
+const getData = () => {
+  fetch("http://localhost:8080/my", {
+    method: "GET",
+    credentials: "include",
+  })
+    .then(res => res.json())
+    .then(data => {
+      alert(data);
+    })
+    .catch(error => alert(error));
+};
 
 const App = () => {
   return (
@@ -29,8 +41,9 @@ const App = () => {
             </ul>
           </nav>
           <div className="header-actions">
-            <KakaoLoginButton />
+            <button onClick={NaverLoginButton}>NAVER LOGIN</button>
             <div className="search-box">
+              <button onClick={getData}>GET DATA</button>
               <input type="text" placeholder="검색어를 입력해주세요." />
               <button className="search-button">🔍</button>
             </div>
